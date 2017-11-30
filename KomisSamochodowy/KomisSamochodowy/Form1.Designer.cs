@@ -41,7 +41,12 @@
             this.comboBoxModel = new System.Windows.Forms.ComboBox();
             this.comboBoxKolor = new System.Windows.Forms.ComboBox();
             this.comboBoxSilnik = new System.Windows.Forms.ComboBox();
+            this.checkBoxMetalic = new System.Windows.Forms.CheckBox();
+            this.checkBoxKlima = new System.Windows.Forms.CheckBox();
+            this.checkBoxAlarm = new System.Windows.Forms.CheckBox();
+            this.pictureBoxSamochod = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSamochod)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -50,7 +55,7 @@
             this.plikToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(865, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(662, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -105,7 +110,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(28, 128);
+            this.label3.Location = new System.Drawing.Point(28, 157);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 3;
@@ -114,7 +119,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(28, 155);
+            this.label4.Location = new System.Drawing.Point(28, 130);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(35, 13);
             this.label4.TabIndex = 4;
@@ -125,42 +130,85 @@
             this.comboBoxMarka.FormattingEnabled = true;
             this.comboBoxMarka.Location = new System.Drawing.Point(74, 68);
             this.comboBoxMarka.Name = "comboBoxMarka";
-            this.comboBoxMarka.Size = new System.Drawing.Size(509, 21);
+            this.comboBoxMarka.Size = new System.Drawing.Size(165, 21);
             this.comboBoxMarka.TabIndex = 5;
             this.comboBoxMarka.SelectedIndexChanged += new System.EventHandler(this.comboBoxMarka_SelectedIndexChanged);
-            this.comboBoxMarka.Click += new System.EventHandler(this.comboBoxMarka_Click);
             // 
             // comboBoxModel
             // 
             this.comboBoxModel.FormattingEnabled = true;
             this.comboBoxModel.Location = new System.Drawing.Point(74, 97);
             this.comboBoxModel.Name = "comboBoxModel";
-            this.comboBoxModel.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxModel.Size = new System.Drawing.Size(165, 21);
             this.comboBoxModel.TabIndex = 6;
-            this.comboBoxModel.Click += new System.EventHandler(this.comboBoxModel_Click);
+            this.comboBoxModel.SelectedIndexChanged += new System.EventHandler(this.comboBoxModel_SelectedIndexChanged);
             // 
             // comboBoxKolor
             // 
             this.comboBoxKolor.FormattingEnabled = true;
-            this.comboBoxKolor.Location = new System.Drawing.Point(74, 125);
+            this.comboBoxKolor.Location = new System.Drawing.Point(74, 154);
             this.comboBoxKolor.Name = "comboBoxKolor";
-            this.comboBoxKolor.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxKolor.Size = new System.Drawing.Size(165, 21);
             this.comboBoxKolor.TabIndex = 7;
-            this.comboBoxKolor.Click += new System.EventHandler(this.comboBoxKolor_Click);
+            this.comboBoxKolor.SelectedIndexChanged += new System.EventHandler(this.comboBoxKolor_SelectedIndexChanged);
             // 
             // comboBoxSilnik
             // 
             this.comboBoxSilnik.FormattingEnabled = true;
-            this.comboBoxSilnik.Location = new System.Drawing.Point(74, 152);
+            this.comboBoxSilnik.Location = new System.Drawing.Point(74, 127);
             this.comboBoxSilnik.Name = "comboBoxSilnik";
-            this.comboBoxSilnik.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxSilnik.Size = new System.Drawing.Size(165, 21);
             this.comboBoxSilnik.TabIndex = 8;
+            this.comboBoxSilnik.SelectedIndexChanged += new System.EventHandler(this.comboBoxSilnik_SelectedIndexChanged);
+            // 
+            // checkBoxMetalic
+            // 
+            this.checkBoxMetalic.AutoSize = true;
+            this.checkBoxMetalic.Location = new System.Drawing.Point(74, 182);
+            this.checkBoxMetalic.Name = "checkBoxMetalic";
+            this.checkBoxMetalic.Size = new System.Drawing.Size(60, 17);
+            this.checkBoxMetalic.TabIndex = 9;
+            this.checkBoxMetalic.Text = "Metalic";
+            this.checkBoxMetalic.UseVisualStyleBackColor = true;
+            this.checkBoxMetalic.CheckStateChanged += new System.EventHandler(this.checkBoxMetalic_CheckStateChanged);
+            // 
+            // checkBoxKlima
+            // 
+            this.checkBoxKlima.AutoSize = true;
+            this.checkBoxKlima.Location = new System.Drawing.Point(74, 205);
+            this.checkBoxKlima.Name = "checkBoxKlima";
+            this.checkBoxKlima.Size = new System.Drawing.Size(84, 17);
+            this.checkBoxKlima.TabIndex = 10;
+            this.checkBoxKlima.Text = "Klimatyzacja";
+            this.checkBoxKlima.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxAlarm
+            // 
+            this.checkBoxAlarm.AutoSize = true;
+            this.checkBoxAlarm.Location = new System.Drawing.Point(74, 228);
+            this.checkBoxAlarm.Name = "checkBoxAlarm";
+            this.checkBoxAlarm.Size = new System.Drawing.Size(52, 17);
+            this.checkBoxAlarm.TabIndex = 11;
+            this.checkBoxAlarm.Text = "Alarm";
+            this.checkBoxAlarm.UseVisualStyleBackColor = true;
+            // 
+            // pictureBoxSamochod
+            // 
+            this.pictureBoxSamochod.Location = new System.Drawing.Point(260, 68);
+            this.pictureBoxSamochod.Name = "pictureBoxSamochod";
+            this.pictureBoxSamochod.Size = new System.Drawing.Size(387, 259);
+            this.pictureBoxSamochod.TabIndex = 12;
+            this.pictureBoxSamochod.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(865, 397);
+            this.ClientSize = new System.Drawing.Size(662, 397);
+            this.Controls.Add(this.pictureBoxSamochod);
+            this.Controls.Add(this.checkBoxAlarm);
+            this.Controls.Add(this.checkBoxKlima);
+            this.Controls.Add(this.checkBoxMetalic);
             this.Controls.Add(this.comboBoxSilnik);
             this.Controls.Add(this.comboBoxKolor);
             this.Controls.Add(this.comboBoxModel);
@@ -175,6 +223,7 @@
             this.Text = "Komis";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSamochod)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,6 +244,10 @@
         private System.Windows.Forms.ComboBox comboBoxModel;
         private System.Windows.Forms.ComboBox comboBoxKolor;
         private System.Windows.Forms.ComboBox comboBoxSilnik;
+        private System.Windows.Forms.CheckBox checkBoxMetalic;
+        private System.Windows.Forms.CheckBox checkBoxKlima;
+        private System.Windows.Forms.CheckBox checkBoxAlarm;
+        private System.Windows.Forms.PictureBox pictureBoxSamochod;
     }
 }
 

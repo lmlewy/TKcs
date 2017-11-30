@@ -35,8 +35,10 @@ namespace KomisSamochodowy
         public bool Klimatyzacja { get; set; }
         public bool Alarm { get; set; }
 
+        public string Zdjecie { get; set; }
+
         public Samochod(uint _id, string _marka, string _model, string _kolor, string _pojemnosc,
-                        bool _metalic, bool _klima, bool _alarm)
+                        bool _metalic, bool _klima, bool _alarm, string _zdjecie)
         {
             Id = _id;
             Marka = _marka;
@@ -46,6 +48,7 @@ namespace KomisSamochodowy
             Metalic = _metalic;
             Klimatyzacja = _klima;
             Alarm = _alarm;
+            Zdjecie = _zdjecie;
 
         }
 

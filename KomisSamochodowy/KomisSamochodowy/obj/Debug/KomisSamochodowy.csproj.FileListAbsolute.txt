@@ -6,3 +6,11 @@ C:\_podyplomowe2\technologieKomponentowe\KomisSamochodowyCs\KomisSamochodowy\Kom
 C:\_podyplomowe2\technologieKomponentowe\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\obj\Debug\KomisSamochodowy.exe
 C:\_podyplomowe2\technologieKomponentowe\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\obj\Debug\KomisSamochodowy.pdb
 C:\_podyplomowe2\technologieKomponentowe\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\obj\Debug\KomisSamochodowy.Form1.resources
+E:\_podyplomowe2\przedmioty\TK\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\bin\Debug\KomisSamochodowy.exe.config
+E:\_podyplomowe2\przedmioty\TK\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\obj\Debug\KomisSamochodowy.exe
+E:\_podyplomowe2\przedmioty\TK\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\obj\Debug\KomisSamochodowy.pdb
+E:\_podyplomowe2\przedmioty\TK\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\bin\Debug\KomisSamochodowy.exe
+E:\_podyplomowe2\przedmioty\TK\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\bin\Debug\KomisSamochodowy.pdb
+E:\_podyplomowe2\przedmioty\TK\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\obj\Debug\KomisSamochodowy.Form1.resources
+E:\_podyplomowe2\przedmioty\TK\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\obj\Debug\KomisSamochodowy.Properties.Resources.resources
+E:\_podyplomowe2\przedmioty\TK\KomisSamochodowyCs\KomisSamochodowy\KomisSamochodowy\obj\Debug\KomisSamochodowy.csproj.GenerateResource.Cache
